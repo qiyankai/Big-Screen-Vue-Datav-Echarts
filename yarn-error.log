@@ -1,0 +1,76 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\sz\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D @vue/eslint-config-prettier
+
+PATH: 
+  C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files (x86)\NetSarang\Xshell 6\;D:\app\sz\product\11.2.0\dbhome_1\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Java\jdk1.8.0_40\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\IDE\apache-maven-3.3.3\bin;C:\Program Files\TortoiseSVN\bin;C:\IDE\mysql-5.6.32-winx64\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\cmd;C:\IDE\apache-maven-3.3.3\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\qyk\neo4j-community-3.5.5\bin;C:\Program Files\Redis\;C:\Users\sz\AppData\Roaming\npm;C:\Users\sz\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\NPCBJ-DP\BS\node_modules\nanoid\non-secure'
+
+npm manifest: 
+  {
+    "name": "big-screen-vue-datav",
+    "version": "1.0.1",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "@jiaminghi/data-view": "^2.7.3",
+      "@types/echarts": "^4.4.3",
+      "axios": "^0.20.0",
+      "core-js": "^3.6.4",
+      "echarts": "^4.6.0",
+      "vue": "^2.6.11",
+      "vue-awesome": "^4.0.2",
+      "vue-router": "^3.1.5",
+      "vuex": "^3.1.2",
+      "yarn": "^1.22.5"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^4.2.0",
+      "@vue/cli-plugin-eslint": "^4.2.0",
+      "@vue/cli-service": "^4.2.0",
+      "babel-eslint": "^10.0.3",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^6.1.2",
+      "sass": "^1.25.0",
+      "sass-loader": "^8.0.2",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "parserOptions": {
+        "parser": "babel-eslint"
+      },
+      "rules": {}
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
