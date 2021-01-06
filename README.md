@@ -1,4 +1,5 @@
 ## 一、项目描述
+相对于V1.0，换了换皮，写了个词云，词云是用jieba分词做的，参考后端项目代码实现 [数据大屏+词云SpringBoot+Redis+Jieba](https://blog.csdn.net/Mrkaizi/article/details/112240338)
 
 - 一个基于 vue、datav、Echart 框架的 " **数据大屏项目** "，通过 vue 组件实现数据动态刷新渲染，内部图表可实现自由替换。部分图表使用 DataV 自带组件，可进行更改，详情请点击下方 DataV 文档。
 - 项目需要全屏展示（按 F11）。
