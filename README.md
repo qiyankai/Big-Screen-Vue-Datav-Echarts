@@ -3,7 +3,7 @@
 项目框架来源于[项目 gitee 地址（国内速度快）](https://gitee.com/MTrun/big-screen-vue-datav)
 吃水不忘挖井人，感谢大佬源码分享
 
-[项目博客地址]()
+[项目博客地址](https://blog.csdn.net/Mrkaizi/article/details/112240996)
 
 
 - 一个基于 vue、datav、Echart 框架的 " **数据大屏项目** "，通过 vue 组件实现数据动态刷新渲染，内部图表可实现自由替换。部分图表使用 DataV 自带组件，可进行更改，详情请点击下方 DataV 文档。
